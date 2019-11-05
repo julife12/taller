@@ -1,0 +1,6 @@
+m1=float(input("digite la masa del objeto uno: "))
+m2=float(input("digite la masa del segundo objeto: "))
+r=float(input("digite la distancia que separa los dos objetos: "))
+g=6.474*(10**-11)
+f=g*((m1*m2)/r**2)
+print("la fuerza con la que se atraen es: ", f)

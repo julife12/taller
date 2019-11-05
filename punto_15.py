@@ -1,0 +1,5 @@
+t=float(input("digite el tiempo que se desplazo el auto: "))
+a=float(input("digite la aceleracion: "))
+vi=float(input("digite la velocidad inicial: "))
+x=vi*t*0.5*a*(t**2)
+print("la distancia total es: ", x)
